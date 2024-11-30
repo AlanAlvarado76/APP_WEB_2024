@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Styles */
+section#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Box Styles */
+.box {
+    padding: 20px;
+}
+
+.box h1 {
+    font-size: 1.8em;
+    color: #2ba977;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    width: 100%;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+form td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    background: #2ba977;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background: #45a049;
+}
+
+/* Table Alignment */
+form table {
+    margin: 0 auto;
+    text-align: left;
+}
